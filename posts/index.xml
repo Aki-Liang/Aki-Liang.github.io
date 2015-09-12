@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Coder Aki</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://aki-liang.github.io/posts/</link>
     <description>Recent content in Posts on Coder Aki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Sep 2015 01:08:25 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://aki-liang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>markdown_test</title>
-      <link>http://localhost:1313/posts/markdown_test/</link>
+      <link>http://aki-liang.github.io/posts/markdown_test/</link>
       <pubDate>Sat, 12 Sep 2015 01:08:25 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/markdown_test/</guid>
+      <guid>http://aki-liang.github.io/posts/markdown_test/</guid>
       <description>
 
 &lt;h3 id=&#34;hello-hugo:420312a01f12092ba31c722227fa8cd6&#34;&gt;Hello Hugo&lt;/h3&gt;
