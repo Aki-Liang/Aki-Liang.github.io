@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-  
-  
+    
+  adb push 失败提示 ‘Read-only file system’ - 
   
   </title>
   
@@ -90,81 +90,36 @@
        
 
  <script type="text/javascript">
-	$(function(){
-		$('#menu_item_index').addClass('is_active');
-	});
+  $(function(){
+    $('#menu_item_index').addClass('is_active');
+  });
 </script>
 <div class="row">
-	<div class="large-8 medium-8 columns">
-		<div class="markdown-body home-categories">
-		
-			<div class="article">
-                <a class="clearlink" href="14527003990435.html">
-                
-                  <h1>fastboot 卡在 waiting for device</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<pre><code>$ fastboot flash boot boot.img
-&lt; waiting for device &gt;
-</code></pre>
+  <div class="large-8 medium-8 columns">
+      <div class="markdown-body article-wrap">
+       <div class="article">
+          
+          <h1>adb push 失败提示 ‘Read-only file system’</h1>
+     
+        <div class="read-more clearfix">
+          <span class="date">2016/1/13</span>
 
-<p>看看devices</p>
+          <span>posted in&nbsp;</span> 
+          
+              <span class="posted-in"><a href='android.html'>android</a></span>
+           
+         
+          <span class="comments">
+            
 
-<pre><code>$ fastboot devices
-no permissions  fastboot
-</code></pre>
+            
+          </span>
 
-<p>唔……</p>
+        </div>
+      </div><!-- article -->
 
-<pre><code>$ sudo chown root:root /bin/fastboot
-$ sudo chmod +s /bin/fastboot
-$ fastboot devices
-    7D89BCD6        fastboot
-$ fastboot flash boot boot.img
-    target reported max download size of 465031168 bytes
-    sending &#39;boot&#39; (9409 KB)...
-    OKAY [  0.665s]
-    writing &#39;boot&#39;...
-    OKAY [  0.961s]
-    finished. total time: 1.666s
-</code></pre>
-
-<p>好了</p>
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                  
-                    <span class="date">2016/1/13</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='android.html'>android</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="14527002954879.html">
-                
-                  <h1>adb push 失败提示 ‘Read-only file system’</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<pre><code>$ adb push ./xxx /xxx/
+      <div class="article-content">
+      <pre><code>$ adb push ./xxx /xxx/
 failed to copy &#39;./xxx&#39; to &#39;/xxx/xxx&#39;: Read-only file system
 </code></pre>
 
@@ -202,93 +157,40 @@ remount failed
 
 <p>可能需要adb reboot 注意看命令行中的提示</p>
 
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                  
-                    <span class="date">2016/1/13</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='android.html'>android</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
+      </div>
 
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-			<div class="article">
-                <a class="clearlink" href="14511384442820.html">
-                
-                  <h1>解决Mac下emacs中alt键不能使用问题</h1>
-                  <div class="a-content">
-                      
-                      <div class="a-content-text">
-                        
-                        	<h2 id="toc_0">iTerm</h2>
+      <div class="row">
+        <div class="large-6 columns">
+        <p class="text-left" style="padding:15px 0px;">
+      
+          <a href="14527003990435.html" 
+          title="Previous Post: fastboot 卡在 waiting for device">&laquo; fastboot 卡在 waiting for device</a>
+      
+        </p>
+        </div>
+        <div class="large-6 columns">
+      <p class="text-right" style="padding:15px 0px;">
+      
+          <a  href="14511384442820.html" 
+          title="Next Post: 解决Mac下emacs中alt键不能使用问题">解决Mac下emacs中alt键不能使用问题 &raquo;</a>
+      
+      </p>
+        </div>
+      </div>
+      <div class="comments-wrap">
+        <div class="share-comments">
+          
 
-<ul>
-<li>preferences-&gt;Profiles</li>
-<li>找到<code>Left option key acts as</code>一栏 选中<code>+Esc</code>选项
-<img src="media/14511384442820/preference.png" alt="preference"/></li>
-</ul>
+          
 
-<h2 id="toc_1">Terminal</h2>
-
-<ul>
-<li>preferences-&gt;Profiles-&gt;keyboard</li>
-<li>在<code>使用Option键作为Meta</code>一栏上打钩
-<img src="media/14511384442820/teminal.png" alt="temina"/></li>
-</ul>
-
-                        
-                      </div>
-                  </div>
-                </a>
-                <div class="read-more clearfix">
-                  <div class="more-left left">
-                  
-                    <span class="date">2015/12/26</span>
-                    <span>posted in&nbsp;</span> 
-          				  
-          					    <span class="posted-in"><a href='macosx.html'>macosx</a></span>
-          				   
-                  </div>
-                  <div class="more-right right">
-                  <span class="comments">
-                      
-
-                       
-                  </span>
-                  </div>
-                </div>
-              </div><!-- article -->
-        
-              
+          
+        </div>
+      </div>
+    </div><!-- article-wrap -->
+  </div><!-- large 8 -->
 
 
-			<div class="row">
-			  <div class="large-6 columns">
-			  <p class="text-left" style="padding-top:25px;">
-			   
-			  </p>
-			  </div>
-			  <div class="large-6 columns">
-			<p class="text-right" style="padding-top:25px;">
-			
-			</p>
-			  </div>
-			</div>
-		</div>
-	</div><!-- large 8 -->
+
 
  <div class="large-4 medium-4 columns">
   <div class="hide-for-small">
